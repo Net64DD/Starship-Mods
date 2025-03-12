@@ -1,0 +1,9 @@
+{
+    "name": "Beta Boost Gauge",
+    "version": "1.0",
+    "website": "https://discord.com/invite/shipofharkinian",
+    "description": "Restores the Beta Boost Gauge to the game.",
+    "author": "Lywx",
+    "license": "MIT",
+    "main": "betabg.lua"
+}
