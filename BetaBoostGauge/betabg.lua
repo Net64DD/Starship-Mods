@@ -53,7 +53,7 @@ function OnLivesCounterDraw(ev)
     end
 
     ev.event.cancelled = true
-    HUD_LivesCount2_Draw(258.0, ScreenSize.HEIGHT - 20, Game.gLifeCount[Game.gPlayerNum])
+    HUD_LivesCount2_Draw(258.0, ScreenSize.HEIGHT - 20, Game.gLifeCount(Game.gPlayerNum()))
 end
 
 function OnMenubar(ev)
